@@ -20,12 +20,16 @@
 你需要对浮点数执行精确的计算操作，并且不希望有任何小误差的出现。
 ### 解 决
 如果你想更加精确(并能容忍一定的性能损耗)，你可以使用 **decimal** 模块：
-```>>> from decimal import Decimal
+```python
+>>> from decimal import Decimal
 >>> a = Decimal('4.2')
 >>> b = Decimal('2.1')
 >>> a + b
 Decimal('6.3')
-
+>>> print(a + b)
+6.3
+>>> (a + b) == Decimal('6.3')
+True
 ```
 
 
