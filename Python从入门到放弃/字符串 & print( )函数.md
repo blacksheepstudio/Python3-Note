@@ -32,7 +32,7 @@ print('Hello %s!' % 'Black Sheep')
 ```
 **format() 方法**
 ```python
-print('我是 {}我的手机号是 {}!'.format('knights', 'Ni'))
+print('我是{}我不是{}!'.format('黑羊', 250))
 ```
 
 **自动换行**
