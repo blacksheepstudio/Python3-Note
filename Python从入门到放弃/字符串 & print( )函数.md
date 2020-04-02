@@ -11,7 +11,7 @@ world!
 """
 print(s1, s2, s3)
 ```
-### print() 格式化输出
+### 格式化输出
 **整数**
 ```python
 # %d
@@ -30,6 +30,7 @@ print('π = %.5f' % 3.1415926)
 print('Hello %s!' % 'Black Sheep')
 # Hello Black Sheep!
 ```
+**format() 方法**
 **自动换行**
 print 会自动在行末加上回车，如果不需要回车可以对end赋值使end值为空，这个换行就消除了。
 ```python
