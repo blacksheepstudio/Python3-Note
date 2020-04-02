@@ -33,6 +33,7 @@ print('Hello %s!' % 'Black Sheep')
 **format() 方法**
 ```python
 print('我是{}我不是{}!'.format('黑羊', 250))
+# 我是黑羊我不是250!
 ```
 
 **自动换行**
