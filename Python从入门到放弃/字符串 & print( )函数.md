@@ -37,8 +37,7 @@ print('Hello ',end='')
 print('world!')
 #Hello world!
 ```
-### 小朋友，你是否有很多问号？？？
-❓ 为什么Python支持两种引号
+### 为什么Python支持两种引号
 ```python
 #单引号作用
 print('Black Sheep:“Hello world!”')
