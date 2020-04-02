@@ -31,6 +31,10 @@ print('Hello %s!' % 'Black Sheep')
 # Hello Black Sheep!
 ```
 **format() 方法**
+```python
+print('我是 {}我的手机号是 {}!'.format('knights', 'Ni'))
+```
+
 **自动换行**
 print 会自动在行末加上回车，如果不需要回车可以对end赋值使end值为空，这个换行就消除了。
 ```python
