@@ -90,17 +90,15 @@ HTML:
 在网页布局中，id 选择器常常用于建立派生选择器。 
 
 即使被标注为 sidebar 的元素只能在文档中出现一次，这个 id 选择器作为派生选择器也可以被使用很多次：
-<div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="j50t">
+```css
+#sidebar p {
+    font-style: italic;
+    }
+#sidebar h2 {
+    font-size: 1em;
+    }
+```
 
-1.  `<span class="com">#sidebar p {</span>`
-2.  `<span class="pln">    font</span><span class="pun">-</span><span class="pln">style</span><span class="pun">:</span><span class="pln"> italic</span><span class="pun">;</span>`
-3.  `<span class="pln">    </span><span class="pun">}</span>`
-4.5.  `<span class="com">#sidebar h2 {</span>`
-6.  `<span class="pln">    font</span><span class="pun">-</span><span class="pln">size</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1em</span><span class="pun">;</span>`
-7.  `<span class="pln">    </span><span class="pun">}</span>`</pre>
-
-* * *
-<div class="md-section-divider"></div>
 
 ## CSS类选择器
 <div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="m240">
