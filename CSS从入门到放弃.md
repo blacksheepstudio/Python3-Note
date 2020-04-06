@@ -76,16 +76,16 @@ HTML：
 id 属性只能在每个 HTML 文档中出现一次。 
 
 CSS:
-<div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="b3fq">
-
-1.  `<span class="com">#red {color:red;}</span>`
-2.  `<span class="com">#green {color:green;}</span>`</pre>
-
+```css
+#red {color:red;}
+#green {color:green;}
+```
 HTML:
-<div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="1m5v">
+```html
+<p id="red">这个段落是红色。</p>
+<p id="green">这个段落是绿色。</p>
+```
 
-1.  `<span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"red"</span><span class="tag">&gt;</span><span class="pln">这个段落是红色。</span><span class="tag">&lt;/p&gt;</span>`
-2.  `<span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"green"</span><span class="tag">&gt;</span><span class="pln">这个段落是绿色。</span><span class="tag">&lt;/p&gt;</span>`</pre>
 
 在网页布局中，id 选择器常常用于建立派生选择器。 
 
