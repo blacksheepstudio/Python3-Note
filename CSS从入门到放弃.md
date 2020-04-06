@@ -30,19 +30,12 @@ CSS(Cascading Style Sheets）：层叠样式表
 
 使用逗号将选择器分开，以下选择器分享相同的声明。 
 
- ` 
-
+ ```css
 h1,h2,h3,h4,h5,h6 { 
-
   color: green; 
-
   } 
-
-`
-<div class="md-section-divider"></div>
-
+```
 ### 3. 元素的继承
-
 子元素从父元素继承属性
 
 * * *
