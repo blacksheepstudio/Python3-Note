@@ -1,4 +1,4 @@
-# CSS
+# CSS从入门到放弃
 
 CSS(Cascading Style Sheets）：层叠样式表
 
@@ -49,12 +49,14 @@ h1,h2,h3,h4,h5,h6 {
 派生选择器是根据文档的上下文关系来确定某个标签的样式。通过合理地使用派生选择器，我们可以使HTML代码变得更加整洁。 
 
 例如，我们希望列表中的 strong 元素变为斜体字，而不是通常的粗体字，可以这样定义一个派生选择器：
-<div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="ndzp">
 
-1.  `<span class="pln">li strong </span><span class="pun">{</span>`
-2.  `<span class="pln">    font</span><span class="pun">-</span><span class="pln">style</span><span class="pun">:</span><span class="pln"> italic</span><span class="pun">;</span>`
-3.  `<span class="pln">    font</span><span class="pun">-</span><span class="pln">weight</span><span class="pun">:</span><span class="pln"> normal</span><span class="pun">;</span>`
-4.  `<span class="pln">  </span><span class="pun">}</span>`</pre>
+```css
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+```
+
 
 HTML：
 <div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="0gmf">
