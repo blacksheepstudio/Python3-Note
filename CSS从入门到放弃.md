@@ -59,13 +59,14 @@ li strong {
 
 
 HTML：
-<div class="md-section-divider"></div><pre class="prettyprint linenums prettyprinted" data-anchor-id="0gmf">
+```html
+<p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
+<ol>
+<li><strong>我是斜体字。这是因为 strong 元素位于 li 元素内。</strong></li>
+<li>我是正常的字体。</li>
+</ol>
+```
 
-1.  `<span class="tag">&lt;p&gt;&lt;strong&gt;</span><span class="pln">我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</span><span class="tag">&lt;/strong&gt;&lt;/p&gt;</span>`
-2.3.  `<span class="tag">&lt;ol&gt;</span>`
-4.  `<span class="tag">&lt;li&gt;&lt;strong&gt;</span><span class="pln">我是斜体字。这是因为 strong 元素位于 li 元素内。</span><span class="tag">&lt;/strong&gt;&lt;/li&gt;</span>`
-5.  `<span class="tag">&lt;li&gt;</span><span class="pln">我是正常的字体。</span><span class="tag">&lt;/li&gt;</span>`
-6.  `<span class="tag">&lt;/ol&gt;</span>`</pre>
 
 在上面的例子中，只有 li 元素中的 strong 元素的样式为斜体字，无需为 strong 元素定义特别的 class 或 id，代码更加简洁。
 <div class="md-section-divider"></div>
@@ -1798,8 +1799,3 @@ CSS 伪类用于向某些选择器添加特殊的效果。
 
 > *   float:left - 使用 float 来把块元素滑向彼此。
 > *   display:block - 把链接显示为块元素可使整个链接区域可点击（不仅仅是文本），同时也允许我们规定宽度。
-
-* * *
-
-已学完
-</li></div>
