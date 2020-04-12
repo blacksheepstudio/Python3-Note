@@ -3,7 +3,7 @@
 <body>
 <div id='应用'>
     {{信息}}
-
+<scrip>
 </body>
 
 ```
