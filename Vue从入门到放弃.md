@@ -1,5 +1,10 @@
 #Vue 基础
-```ht
+```html
+<body>
+<div id='应用'>
+    {{信息}}
+
+</body>
 
 ```
 
