@@ -1,4 +1,5 @@
-#Vue 基础
+## Vue 基础
+### Vue 声明渲染
 ```html
 <body>
     <div id="第一个应用">
