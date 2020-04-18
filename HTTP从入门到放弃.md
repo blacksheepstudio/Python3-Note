@@ -16,18 +16,17 @@ http.createServer((request, response) => {
 console.log('服务器运行于 http://127.0.0.1:8000/');
 
 ```
-## 基本知识
+### 基本知识
 - 请求的一方叫客户端，响应的一方叫服务器端
 - 通过请求和响应达成通信
 - HTTP是一种不保存状态的协议
-## 请求报文
+### 请求报文
 常见的方法有：
-
-GET 获取资源
-POST 向服务器端发送数据，传输实体主体
-PUT 传输文件
-HEAD 获取报文首部
-DELETE 删除文件
-OPTIONS 询问支持的方法
-TRACE 追踪路径
-响应报文
+- GET 获取资源
+- POST 向服务器端发送数据，传输实体主体
+- PUT 传输文件
+- HEAD 获取报文首部
+- DELETE 删除文件
+- OPTIONS 询问支持的方法
+- TRACE 追踪路径
+- 响应报文
