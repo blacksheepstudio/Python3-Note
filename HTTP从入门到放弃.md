@@ -33,9 +33,11 @@ console.log('服务器运行于 http://127.0.0.1:8000/');
 
 
 |类别|说明|
-|1XX|	Informational(信息性状态码|
-|2XX|	Success(成功状态码)|
-|3XX|	Redirection(重定向)|
-|4XX|	Client Error(客户端错误状态码)
-|5XX|	Server Error(服务器错误状态吗)
+|-|-|
+|1XX|Informational(信息性状态码|
+|2XX|Success(成功状态码)|
+|3XX|Redirection(重定向)|
+|4XX|Client Error(客户端错误状态码)|
+|5XX|Server Error(服务器错误状态吗)|
+
 
