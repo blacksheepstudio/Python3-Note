@@ -30,3 +30,8 @@ console.log('服务器运行于 http://127.0.0.1:8000/');
 - OPTIONS 询问支持的方法
 - TRACE 追踪路径
 - 响应报文
+|column1|column2|column3|
+|-|-|-|
+|content1|content2|content3|
+
+
