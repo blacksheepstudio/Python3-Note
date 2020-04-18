@@ -42,20 +42,20 @@ console.log('服务器运行于 http://127.0.0.1:8000/');
 |5XX|Server Error(服务器错误状态吗)|
 
 ### 2XX 成功
-200(OK 客户端发过来的数据被正常处理
-204(Not Content 正常响应，没有实体
-206(Partial Content 范围请求，返回部分数据，响应报文中由Content-Range指定实体内容
+- 200(OK 客户端发过来的数据被正常处理
+- 204(Not Content 正常响应，没有实体
+- 206(Partial Content 范围请求，返回部分数据，响应报文中由Content-Range指定实体内容
 ### 3XX 重定向
-301(Moved Permanently) 永久重定向
-302(Found) 临时重定向，规范要求方法名不变，但是都会改变
-303(See Other) 和302类似，但必须用GET方法
-304(Not Modified) 状态未改变 配合(If-Match、If-- Modified-Since、If-None_Match、If-Range、If-Unmodified-Since)
-307(Temporary Redirect) 临时重定向，不该改变请求方法
+- 301(Moved Permanently) 永久重定向
+- 302(Found) 临时重定向，规范要求方法名不变，但是都会改变
+- 303(See Other) 和302类似，但必须用GET方法
+- 304(Not Modified) 状态未改变 配合(If-Match、If-- Modified-Since、If-None_Match、If-Range、If-Unmodified-Since)
+- 307(Temporary Redirect) 临时重定向，不该改变请求方法
 ### 4XX 客户端错误
-400(Bad Request) 请求报文语法错误
-401 (unauthorized) 需要认证
-403(Forbidden) 服务器拒绝访问对应的资源
-404(Not Found) 服务器上无法找到资源
+- 400(Bad Request) 请求报文语法错误
+- 401 (unauthorized) 需要认证
+- 403(Forbidden) 服务器拒绝访问对应的资源
+- 404(Not Found) 服务器上无法找到资源
 ### 5XX 服务器端错误
-500(Internal Server Error)服务器故障
-503(Service Unavailable) 服务器处于超负载或正在停机维护
+- 500(Internal Server Error)服务器故障
+- 503(Service Unavailable) 服务器处于超负载或正在停机维护
