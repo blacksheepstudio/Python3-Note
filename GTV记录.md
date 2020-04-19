@@ -1,6 +1,12 @@
 |域名：|http://www.liveqmq.com|
 |-|-|
-|ip|104.31.9.185|
+|IP|104.31.9.185|
+
+|域名：|http://www.alivec.com|
+|-|-|
+|IP|104.31.9.185|
+|内容|104.31.9.185|
+
 
 104.31.9.185:8000/live/kwzq1rse/jgcz990f/index.m3u8
 
