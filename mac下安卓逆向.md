@@ -6,6 +6,8 @@
 - JD-GUI：http://jd.benow.ca/
 
 ```bush
-apktool d xxx.apk
-apktool b xxx     //文件夹
+apktool d xxx.apk    //apk
+apktool b xxx        //文件夹
+cd 到 文件夹内 
+d2j-dex2jar classes.dex -o test.jar
 ```
