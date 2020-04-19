@@ -12,4 +12,4 @@
 
 http://80.245.105.119:8008//live/kwzq1rse/bkrbn0pf/index.m3u8
 
-ws抓包： 198.255.102.227
+ws抓包： 198.255.102.227/live/kwzq1rse/jgcz990f/index.m3u8
