@@ -1,3 +1,5 @@
+# php从入门到放弃
+1. 变量/数组/输出
 ```php
     //定义字符串变量
     $name='黑羊';
@@ -10,5 +12,5 @@
     //将数组转为json输出
     echo json_encode($studying);
 
-    >>
+    >> 现在是2020年，黑羊正在学习php。["php","html","css","javastript"]    
 ```
